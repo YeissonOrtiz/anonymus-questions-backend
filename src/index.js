@@ -16,7 +16,7 @@ app.use('/api', router)
 ConnectDB()
 
 app.get('/', (req, res) => {
-  res.send('Hello world')
+  res.send('Our docs will be release soon here! News at @Yeisson2183 on Twitter (or X)')
 })
 
 app.listen(PORT, () => {
